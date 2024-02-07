@@ -1,0 +1,17 @@
+.footer {
+    background-color: grey;
+    height: 20px;
+}
+
+a.hiperlink {
+    color: lightgrey;
+    text-decoration: underline;
+}
+
+a:visited.hiperlink {
+    color: darkgrey;
+}
+
+a:hover.hiperlink {
+    color: grey;
+}

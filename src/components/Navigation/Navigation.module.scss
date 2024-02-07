@@ -1,0 +1,93 @@
+.navigation {
+    align-items: center;
+    background-color: #3f3f3f;
+    box-shadow: 0 4px 8px hsla(0deg, 0%, 0%, 20%);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px 40px 10px 0;
+}
+
+@media (width <= 1060px) {
+    .navigation :nth-child(2) {
+        order: 3;
+    }
+
+    .search-bar {
+        margin-left: 20px;
+        width: 100% !important;
+    }
+}
+
+.logo {
+    padding: 20px;
+
+    & img {
+        cursor: pointer;
+        height: 56px;
+        width: 177px;
+    }
+}
+
+.search-space {
+    flex-grow: 1;
+    min-width: 505px;
+}
+
+.search-bar {
+    display: flex;
+    width: 500px;
+
+    .close-icon {
+        align-items: center;
+        background-color: #f5f5f5;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        padding: 10px;
+    }
+
+    &-input {
+        background-color: #f5f5f5;
+        border: none;
+        border-bottom-left-radius: 40px;
+        border-top-left-radius: 40px;
+        padding: 10px;
+        width: 100%;
+
+        &:focus {
+            background-color: white;
+            outline: none;
+        }
+    }
+
+    .icon {
+        font-size: 2.5rem;
+    }
+
+    &:focus-within {
+        border-radius: 40px;
+        box-shadow: 0 0 1px 1px #dae6dd;
+        outline: none;
+
+        .close-icon {
+            background-color: white;
+        }
+    }
+}
+
+.account-management {
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+.icon-button {
+    color: white;
+    transition: color 0.5s ease !important;
+
+    &:hover {
+        color: #20b2aa;
+    }
+}

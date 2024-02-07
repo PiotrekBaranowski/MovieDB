@@ -1,0 +1,33 @@
+@import 'src/scss/core/colors';
+@import 'src/scss/core/variables';
+
+$input-label-height: 60%;
+
+.form-input-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.label {
+    height: $input-label-height;
+}
+
+.input-error {
+    align-self: flex-start;
+    color: $warrning;
+    margin: 5px 0 0 10px;
+}
+
+.input-and-error {
+    width: 100%;
+}
+
+.input {
+    height: $input-label-height;
+}
+
+.error {
+    height: $input-label-height;
+}

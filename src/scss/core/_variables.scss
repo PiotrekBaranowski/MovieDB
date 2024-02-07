@@ -1,0 +1,41 @@
+// FONT SIZES
+
+$fs-tiny: 10px;
+$fs-small: 12px;
+$fs-normal: 14px;
+$fs-bigger: 16px;
+$fs-header: 18px;
+$fs-veryBig: 24px;
+
+// FONT WEIGHT
+
+$fw-normal: 400;
+$fw-bigger: 500;
+$fw-header: 600;
+$fw-veryBig: 700;
+
+// BREAKPOINTS
+
+$breakpoint-tablet: 768px;
+
+// BORDER RADIUS
+
+$br-small: 6px;
+$br-normal: 8px;
+$br-big: 12px;
+$br-veryBig: 20px;
+
+// BOX-SHADOW
+
+$bs-small: 0 2px 4px hsla(0deg, 0%, 0%, 20%);
+$bs-normal-bright: 0 2px 6px hsla(0deg, 0%, 0%, 20%);
+$bs-normal: 0 4px 8px hsla(0deg, 0%, 0%, 20%);
+$bs-big: 0 8px 16px hsla(0deg, 0%, 0%, 20%);
+$bs-veryBig: 0 15px 35px hsla(0deg, 0%, 0%, 20%);
+
+// Z-Index
+
+$zi-below: -1;
+$zi-low: 8;
+$zi-medium: 9;
+$zi-high: 10;

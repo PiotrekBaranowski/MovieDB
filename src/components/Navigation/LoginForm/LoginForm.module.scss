@@ -1,0 +1,33 @@
+@import 'src/scss/core/colors';
+@import 'src/scss/core/variables';
+
+.login {
+    width: 100%;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+
+        .input-and-label {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+        }
+    }
+
+    &__link {
+        color: $gray-700;
+        text-decoration: underline;
+
+        &:hover {
+            color: $gray-400;
+            cursor: pointer;
+        }
+    }
+
+    &__statement {
+        font-size: $fs-small;
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+}

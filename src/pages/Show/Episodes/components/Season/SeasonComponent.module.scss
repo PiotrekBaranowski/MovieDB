@@ -1,0 +1,11 @@
+.season {
+    width: fit-content;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.episode {
+    padding-left: 20px;
+}

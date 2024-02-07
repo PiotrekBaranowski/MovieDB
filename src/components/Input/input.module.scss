@@ -1,0 +1,16 @@
+@import 'src/scss/core/colors';
+@import 'src/scss/core/variables';
+
+.input__textBox {
+    border: 1px solid $gray-500;
+    border-radius: $br-small;
+    font-size: $fs-normal;
+    margin-left: 10px;
+    outline: none;
+    padding: 6px 8px;
+    width: 100%;
+
+    &:focus::placeholder {
+        color: transparent;
+    }
+}

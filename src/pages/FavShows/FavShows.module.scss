@@ -1,0 +1,13 @@
+.shows {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    overflow-y: auto;
+    padding: 20px;
+    width: 100%;
+}
+
+.show {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}

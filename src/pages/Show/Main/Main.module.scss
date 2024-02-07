@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.main-tab-container {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+.main-tab-card {
+    align-items: start;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main-tab-summary {
+    height: 100%;
+    margin-left: 10px;
+    max-width: 800px;
+
+    .summary {
+        height: 100%;
+        width: fit-content;
+    }
+}
+
+.main-tab-info {
+    padding-left: 20px;
+    width: 400px;
+}
+
+.skeleton {
+    &-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-summary {
+        margin-left: 5px;
+    }
+
+    &-tab-info {
+        margin-left: 5px;
+    }
+}

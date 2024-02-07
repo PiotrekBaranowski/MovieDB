@@ -1,0 +1,35 @@
+.button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.primary {
+    background-color: #3c948b;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.5s ease;
+
+    &:hover {
+        background-color: #71c5bd;
+        cursor: pointer;
+        outline: none;
+    }
+}
+
+.terthiary {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font: inherit;
+    outline: inherit;
+    padding: 0;
+    transition: color 0.5s ease;
+
+    &:hover {
+        color: #71c5bd;
+    }
+}

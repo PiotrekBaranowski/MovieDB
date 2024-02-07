@@ -1,0 +1,39 @@
+.card {
+    height: fit-content;
+}
+
+.fav-icon-container {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+
+    &-followed {
+        background-color: green;
+    }
+
+    &-notFollowed {
+        background-color: white;
+    }
+}
+
+.fav-icon-button {
+    height: 100%;
+    width: 100%;
+
+    &-followed {
+        background-color: green;
+    }
+
+    &-notFollowed {
+        background-color: white;
+    }
+
+    &-loading {
+        background-color: white;
+    }
+}
+
+.follow-text {
+    margin-left: 5px;
+}

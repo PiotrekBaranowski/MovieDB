@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.cast-name {
+    height: 40px;
+    margin-top: 5px;
+    width: 250px;
+}
+
+.cast-skeleton {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.cast-container {
+    margin: 0 20px;
+}

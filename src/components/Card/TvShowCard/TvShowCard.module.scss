@@ -1,0 +1,8 @@
+.card {
+    transition: filter 0.5s ease !important;
+
+    &:hover {
+        background-color: lightgray;
+        filter: grayscale(100%);
+    }
+}

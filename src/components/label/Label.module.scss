@@ -1,0 +1,9 @@
+@import 'src/scss/core/colors';
+@import 'src/scss/core/variables';
+
+.input__label {
+    align-items: center;
+    color: $gray-500;
+    display: flex;
+    width: 80px;
+}
